@@ -26,5 +26,5 @@ cd /vagrant/build/
 
 ## Use Valgrind:
 ```
-valgrind ./prog run
+valgrind ./container run
 ```
