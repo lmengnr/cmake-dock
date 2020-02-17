@@ -4,7 +4,7 @@
 
 void child() {
   std::cout << "Executing child() " << std::endl;
-  system("chroot /ubuntu-rootfs");
+  std::system("chroot /ubuntu-rootfs");
 }
 
 int main(int argc, char *argv[]) {
